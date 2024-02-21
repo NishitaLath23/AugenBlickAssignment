@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// calculating value using hash algorithm for each string
 int hashAlgo(string s)
 {
     int ans=0;
