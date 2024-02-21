@@ -1,3 +1,4 @@
+# calculating value using hash algorithm for each string
 def hash_algo(s):
     ans = 0
     for ch in s:
