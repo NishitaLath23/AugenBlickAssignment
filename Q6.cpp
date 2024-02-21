@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//changes in grid due to the tilt
 vector<string> northTilt(vector<string> grid)
 {
     for(int i=0; i<grid.size(); i++)
@@ -28,6 +29,7 @@ vector<string> northTilt(vector<string> grid)
     return grid;
 }
 
+// calculating the total load
 int totalLoad(vector<string> grid)
 {
     int n=grid.size();
