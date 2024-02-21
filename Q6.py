@@ -1,3 +1,4 @@
+# changes in grid due to the tilt
 def north_tilt(grid):
     grid_list = [list(row) for row in grid]
 
@@ -16,6 +17,7 @@ def north_tilt(grid):
     
     return [''.join(row) for row in grid_list]
 
+# calculating the total load
 def total_load(grid):
     n = len(grid)
     load = 0
